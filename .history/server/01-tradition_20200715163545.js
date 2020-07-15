@@ -7,11 +7,7 @@ const server = new express()
 
 server.get('/',(req,res)=>{
   res.send(`
-    <h1>hello express</h1>
+    <h1>hell express</h1>
     <p>ok</p>
   `)
-})
-
-server.listen(3000,()=>{
-  console.log('server is running on 3000')
 })

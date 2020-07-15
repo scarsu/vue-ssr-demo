@@ -10,15 +10,11 @@ server.get('/',(req,res)=>{
   <script>
     new Vue({
       name:'hello csr',
-      data:{
-        msg:'hello csr'
+      data(){
+        msg:'hello csr
       },
       el:'#app'
     })
   </script>
   `)
-})
-
-server.listen(3000,()=>{
-  console.log('csr server is running on 3000')
 })

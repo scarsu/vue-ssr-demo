@@ -7,7 +7,7 @@ const server = new express()
 
 server.get('/',(req,res)=>{
   res.send(`
-    <h1>hello express</h1>
+    <h1>hell express</h1>
     <p>ok</p>
   `)
 })

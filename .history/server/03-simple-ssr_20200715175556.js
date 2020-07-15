@@ -57,9 +57,8 @@ server.get('*', async (req, res) => {
     // 发送回前端
     res.send(html)
   } catch (error) {
-    res.status(500).send('500')
+    res.status(500)
   }
 })
 
 // 监听端口
-server.listen(3000)

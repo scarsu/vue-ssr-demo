@@ -11,7 +11,7 @@ server.get('/',(req,res)=>{
     new Vue({
       name:'hello csr',
       data:{
-        msg:'hello csr'
+        msg:'hello csr
       },
       el:'#app'
     })
